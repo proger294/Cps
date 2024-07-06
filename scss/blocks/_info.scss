@@ -1,0 +1,104 @@
+.info {
+  display: flex;
+  margin-top: 32px;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.info__text {
+  min-width: 288px;
+  min-height: 90px;
+}
+
+.info__btn {
+  display: block;
+  background-color: transparent;
+  border: none;
+  font-size: 17px;
+  cursor: pointer;
+  font-family: "TT Lakes Medium";
+
+  &::before {
+    content: url(/images/double-strelka.svg);
+    margin-right: 16px;
+  }
+}
+
+
+.info__photo {
+  min-width: 320px;
+  min-height: 176px;
+}
+
+@media (min-width: 320px) {
+  .info {
+    display: flex;
+    flex-direction: column;
+  }
+  .paragraph__two {
+    display: none;
+  }
+  .info__text {
+    padding: 0 16px;
+  }
+  .info__sub-title{
+    display: none;
+  }
+  .info__btn{
+    margin-bottom: 16px;
+  }
+}
+@media (min-width: 768px) {
+  .info__text {
+    width: 389px;
+    height: 160px;
+  
+    padding-left:  24px;
+  }
+  .paragraph__two {
+    display: inline;
+  }
+  .continue {
+    display: none;
+  }
+  .info {
+    display: flex;
+
+    flex-direction: row;
+  }
+  .info__photo {
+    width: 360px;
+    height: 208px;
+  }
+  .info__btn{
+    margin-top: 16px;
+  }
+  .info__sub-title{
+    display: none;
+  }
+
+}
+@media (min-width: 1440px) {
+  .info__text {
+    width: 596px;
+    height: 160px;
+    padding-left:  34px;
+
+  }
+  .continue {
+    display: inline;
+  }
+
+  .info__photo {
+    width: 531px;
+    height: 307px;
+    margin-right: 28px;
+
+  }
+  .info__sub-title{
+    display: block;
+   color: $text-gray;
+   font-size: 16px;
+   margin-bottom: 20px;
+  }
+}

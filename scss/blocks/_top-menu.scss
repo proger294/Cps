@@ -1,0 +1,51 @@
+.top-menu {
+margin-top: 26px;
+display: flex;
+}
+
+.list-top {
+  display: flex;
+  gap: 22px;
+  overflow-x: auto;
+  &::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+  } 
+}
+.list-top__item {
+  
+    white-space: nowrap;
+    width: 233px;
+    max-height: 40px;
+    padding: 10px 21px;
+    display: flex;
+    align-items: center;
+    &--active {
+    background: $white;
+    border: 2px solid $sub-color2;
+    border-radius: 6px;
+  }
+}
+
+.list-top__link {
+   
+  font-family: "TT Lakes Medium";
+  color: $text-gray;
+  font-weight: 500;
+}
+
+@media (min-width: 320px){
+  .top-menu{
+    padding: 0 16px;  
+  }
+}
+@media (min-width: 768px){
+  .top-menu{
+    padding: 0 24px;  
+  }
+}
+@media (min-width: 1440px){
+  .top-menu{
+    padding: 0 34px;  
+  }
+}

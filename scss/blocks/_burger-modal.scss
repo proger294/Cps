@@ -1,0 +1,110 @@
+.burger-modal {
+  width: 288px;
+  background-color: $white;
+  min-height: 800px;
+  padding: 30px 22px;
+  font-family: "TT Lakes medium";
+  font-size: 16px;
+  color: $text-black;
+  transform: translateX(-100%);
+  transition: transform 0.5s;
+  position: absolute;
+  z-index: 3;
+}
+.burger-modal--open {
+  transform: translateY(0%);
+}
+
+.wrap-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+.menu__item {
+  margin-bottom: 28px;
+}
+
+.mail {
+  display: block;
+  margin-bottom: 12px;
+  margin-top: 16px;
+}
+
+.tel {
+  display: block;
+  margin-bottom: 40px;
+  font-family: "TT Lakes Bold";
+
+  font-size: 20px;
+}
+.lang-list {
+  display: flex;
+  gap: 7px;
+}
+
+.menu__link--active {
+  color: $text-gray;
+  &::before {
+    content: url(/images/psevdo-el-2.svg);
+    position: absolute;
+    margin-left: -21px;
+    margin-top: -3px;
+  }
+}
+
+.lang-list__item--active {
+  color: $text-gray;
+}
+@media (min-width: 320px) {
+  .burger-modal {
+    top: 0px;
+    .call {
+      display: block;
+    }
+    .chat {
+      display: block;
+    }
+    .profile {
+      display: block;
+    }
+    .profile::before {
+      content: "";
+    }
+  }
+
+.menu-list {
+  margin-top: 32px;
+  margin-bottom: 32px;
+}
+
+}
+@media (min-width: 768px) {
+  .burger-modal {
+    top: 0px;
+    .profile::before {
+      content: "";
+    }
+  }
+
+.menu-list {
+  margin-top: 52px;
+  margin-bottom: 268px;
+}
+
+}
+@media (min-width: 1300px) {
+  .burger-modal {
+    display: block;
+    transform: none;
+    position: relative;
+    top: 0;
+  }
+.menu-list {
+  margin-top: 37px;
+  margin-bottom: 241px;
+}
+
+
+}

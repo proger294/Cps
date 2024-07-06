@@ -1,0 +1,31 @@
+.logo {
+  position: relative;
+  &::after {
+    content: url(/images/psevdo-el-1.svg);
+    position: absolute;
+    margin-left: 10px;
+    margin-top: 12px;
+  }
+}
+@media (min-width: 768px) {
+  .logo::after {
+    content: url(/images/psevdo-el-1.svg);
+    position: absolute;
+    display: none;
+  
+  }
+  .logo{
+    // margin-left: -35px;
+  }
+}
+@media (min-width: 768px) {
+  .logo::after {
+    content: url(/images/psevdo-el-1.svg);
+    position: absolute;
+    display: none;
+  
+  }
+  .logo{
+    // margin-left: -35px;
+  }
+}

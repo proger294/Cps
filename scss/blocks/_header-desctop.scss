@@ -1,0 +1,65 @@
+.title {
+  width: 266px;
+  height: 40px;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 143%;
+  letter-spacing: -0.02em;
+  color: $text-black;
+  font-family: "TT Lakes Bold";
+
+  &::before {
+    content: url(/images/psevdo-el-2.svg);
+    position: absolute;
+    margin-left: -33px;
+    margin-top: 6px;
+  }
+}
+
+.header-desctop {
+  height: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.wrap-btn {
+  display: flex;
+  align-items: center;
+  p {
+    margin-right: 10px;
+    font-family: "TT Lakes Medium";
+    font-size: 16px;
+    color: $text-black;
+  }
+}
+@media (min-width: 320px) {
+  .header-desctop {
+  padding: 0 16px;
+
+  }
+  .wrap-btn {
+    display: none;
+  }
+
+}
+@media (min-width: 768px) {
+  .header-desctop {
+    padding: 0 24px;
+  
+    }
+
+  .wrap-btn {
+    display: none;
+  }
+}
+@media (min-width: 1440px) {
+  .wrap-btn {
+    display: flex;
+  }
+  .header-desctop{
+    margin-top: 42px;
+    padding: 0 34px;
+
+  }
+}
