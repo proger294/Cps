@@ -489,7 +489,7 @@ a {
   font-family: "TT Lakes Medium";
 }
 .info__btn::before {
-  content: url(/images/double-strelka.svg);
+  content: url(../images/double-strelka.svg);
   margin-right: 16px;
 }
 
