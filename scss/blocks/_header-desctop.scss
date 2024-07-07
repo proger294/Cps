@@ -8,12 +8,41 @@
   color: $text-black;
   font-family: "TT Lakes Bold";
 
-  &::before {
+  // &::before {
+  //   content: url(../images/psevdo-el-2.svg);
+  //   position: absolute;
+  //   margin-left: -33px;
+  //   margin-top: 6px;
+  // }
+}
+
+@media (min-width: 320px){
+  .title::before {
+    content: url(../images/psevdo-el-2.svg);
+    position: absolute;
+    margin-left: -15px;
+    margin-top: 6px;
+
+}
+}
+
+@media (min-width: 768px){
+  .title::before {
+    content: url(../images/psevdo-el-2.svg);
+    position: absolute;
+    margin-left: -23px;
+    margin-top: 6px;
+
+}
+}
+@media (min-width: 1440px){
+  .title::before {
     content: url(../images/psevdo-el-2.svg);
     position: absolute;
     margin-left: -33px;
     margin-top: 6px;
-  }
+
+}
 }
 
 .header-desctop {
