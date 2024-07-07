@@ -278,7 +278,7 @@ a {
   color: #7E7E82;
 }
 .menu__link--active::before {
-  content: url(/images/psevdo-el-2.svg);
+  content: url(../images/psevdo-el-2.svg);
   position: absolute;
   margin-left: -21px;
   margin-top: -3px;
@@ -351,7 +351,7 @@ a {
   font-family: "TT Lakes Bold";
 }
 .title::before {
-  content: url(/images/psevdo-el-2.svg);
+  content: url(../images/psevdo-el-2.svg);
   position: absolute;
   margin-left: -33px;
   margin-top: 6px;

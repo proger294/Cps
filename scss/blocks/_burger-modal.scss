@@ -47,7 +47,7 @@
 .menu__link--active {
   color: $text-gray;
   &::before {
-    content: url(/images/psevdo-el-2.svg);
+    content: url(../images/psevdo-el-2.svg);
     position: absolute;
     margin-left: -21px;
     margin-top: -3px;
