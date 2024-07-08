@@ -7,13 +7,6 @@
   letter-spacing: -0.02em;
   color: $text-black;
   font-family: "TT Lakes Bold";
-
-  // &::before {
-  //   content: url(../images/psevdo-el-2.svg);
-  //   position: absolute;
-  //   margin-left: -33px;
-  //   margin-top: 6px;
-  // }
 }
 
 @media (min-width: 320px){
@@ -82,7 +75,7 @@
     display: none;
   }
 }
-@media (min-width: 1440px) {
+@media (min-width: 1120px) {
   .wrap-btn {
     display: flex;
   }
