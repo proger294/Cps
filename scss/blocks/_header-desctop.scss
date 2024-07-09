@@ -7,38 +7,37 @@
   letter-spacing: -0.02em;
   color: $text-black;
   font-family: "TT Lakes Bold";
+  // padding: 24px 0;
+  // margin-top: 24px;
 }
 
-@media (min-width: 320px){
+@media (min-width: 320px) {
   .title::before {
     content: url(../images/psevdo-el-2.svg);
     position: absolute;
     margin-left: -15px;
     margin-top: 6px;
+  }
+  .title {
+    // margin-top: 24px;
+  }
+}
 
-}
-.title{
-  // margin-top: 24px;
-}
-}
-
-@media (min-width: 768px){
+@media (min-width: 768px) {
   .title::before {
     content: url(../images/psevdo-el-2.svg);
     position: absolute;
     margin-left: -23px;
     margin-top: 6px;
-
+  }
 }
-}
-@media (min-width: 1440px){
+@media (min-width: 1440px) {
   .title::before {
     content: url(../images/psevdo-el-2.svg);
     position: absolute;
     margin-left: -33px;
     margin-top: 6px;
-
-}
+  }
 }
 
 .header-desctop {
@@ -60,19 +59,17 @@
 }
 @media (min-width: 320px) {
   .header-desctop {
-  padding: 0 16px;
-
+    padding: 0 16px;
+ margin-top: 24px;
   }
   .wrap-btn {
     display: none;
   }
-
 }
 @media (min-width: 768px) {
   .header-desctop {
     padding: 0 24px;
-  
-    }
+  }
 
   .wrap-btn {
     display: none;
@@ -82,9 +79,9 @@
   .wrap-btn {
     display: flex;
   }
-  .header-desctop{
+  .header-desctop {
     margin-top: 42px;
     padding: 0 34px;
-
+    // background-color: beige;
   }
 }
