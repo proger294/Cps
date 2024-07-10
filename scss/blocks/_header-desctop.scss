@@ -60,7 +60,7 @@
 @media (min-width: 320px) {
   .header-desctop {
     padding: 0 16px;
- margin-top: 24px;
+    margin-top: 24px;
   }
   .wrap-btn {
     display: none;
@@ -79,7 +79,7 @@
   .wrap-btn {
     display: flex;
   }
-  .header-desctop {
+  .header-desctop--margin {
     margin-top: 42px;
     padding: 0 34px;
     // background-color: beige;

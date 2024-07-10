@@ -415,14 +415,17 @@ a {
   .wrap-btn {
     display: flex;
   }
-  .header-desctop {
+  .header-desctop--margin {
     margin-top: 42px;
     padding: 0 34px;
   }
 }
 .top-menu {
-  margin-top: 26px;
   display: flex;
+}
+
+.top-menu--margin {
+  margin-top: 26px;
 }
 
 .list-top {
@@ -472,9 +475,12 @@ a {
 }
 .info {
   display: flex;
-  margin-top: 32px;
   flex-direction: column;
   justify-content: space-between;
+}
+
+.info--margin {
+  margin-top: 32px;
 }
 
 .info__text {
