@@ -341,7 +341,7 @@ a {
   min-width: 320px;
 }
 
-.title {
+.header-desctop__title {
   width: 266px;
   height: 40px;
   font-size: 28px;
@@ -353,7 +353,7 @@ a {
 }
 
 @media (min-width: 320px) {
-  .title::before {
+  .header-desctop__title::before {
     content: url(../images/psevdo-el-2.svg);
     position: absolute;
     margin-left: -15px;
@@ -361,7 +361,7 @@ a {
   }
 }
 @media (min-width: 768px) {
-  .title::before {
+  .header-desctop__title::before {
     content: url(../images/psevdo-el-2.svg);
     position: absolute;
     margin-left: -23px;
@@ -369,7 +369,7 @@ a {
   }
 }
 @media (min-width: 1440px) {
-  .title::before {
+  .header-desctop__title::before {
     content: url(../images/psevdo-el-2.svg);
     position: absolute;
     margin-left: -33px;
@@ -507,7 +507,7 @@ a {
     display: flex;
     flex-direction: column;
   }
-  .paragraph__two {
+  .info__paragraph-two {
     display: none;
   }
   .info__text {
@@ -526,10 +526,10 @@ a {
     height: 160px;
     padding-left: 24px;
   }
-  .paragraph__two {
+  .info__paragraph-two {
     display: inline;
   }
-  .continue {
+  .info--continue {
     display: none;
   }
   .info__wrap {
@@ -553,7 +553,7 @@ a {
     height: 160px;
     padding-left: 34px;
   }
-  .continue {
+  .info--continue {
     display: inline;
   }
   .info__photo {

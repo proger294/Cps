@@ -1,4 +1,4 @@
-.title {
+.header-desctop__title {
   width: 266px;
   height: 40px;
   font-size: 28px;
@@ -11,7 +11,7 @@
 }
 
 @media (min-width: 320px) {
-  .title::before {
+  .header-desctop__title::before {
     content: url(../images/psevdo-el-2.svg);
     position: absolute;
     margin-left: -15px;
@@ -21,7 +21,7 @@
 }
 
 @media (min-width: 768px) {
-  .title::before {
+  .header-desctop__title::before {
     content: url(../images/psevdo-el-2.svg);
     position: absolute;
     margin-left: -23px;
@@ -29,7 +29,7 @@
   }
 }
 @media (min-width: 1440px) {
-  .title::before {
+  .header-desctop__title::before {
     content: url(../images/psevdo-el-2.svg);
     position: absolute;
     margin-left: -33px;

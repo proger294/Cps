@@ -37,7 +37,7 @@
     display: flex;
     flex-direction: column;
   }
-  .paragraph__two {
+  .info__paragraph-two {
     display: none;
   }
   .info__text {
@@ -57,15 +57,14 @@
   
     padding-left:  24px;
   }
-  .paragraph__two {
+  .info__paragraph-two {
     display: inline;
   }
-  .continue {
+  .info--continue  {
     display: none;
   }
   .info__wrap{
     display: flex;
-
     flex-direction: row;
   }
   .info__photo {
@@ -87,7 +86,7 @@
     padding-left:  34px;
 
   }
-  .continue {
+  .info--continue  {
     display: inline;
   }
 
