@@ -7,8 +7,7 @@
   letter-spacing: -0.02em;
   color: $text-black;
   font-family: "TT Lakes Bold";
-  // padding: 24px 0;
-  // margin-top: 24px;
+  
 }
 
 @media (min-width: 320px) {
@@ -18,9 +17,7 @@
     margin-left: -15px;
     margin-top: 6px;
   }
-  .title {
-    // margin-top: 24px;
-  }
+
 }
 
 @media (min-width: 768px) {
@@ -40,7 +37,7 @@
   }
 }
 
-.header-desctop {
+.header-desctop__wrap {
   height: 20px;
   display: flex;
   justify-content: space-between;
@@ -58,7 +55,7 @@
   }
 }
 @media (min-width: 320px) {
-  .header-desctop {
+  .header-desctop__wrap {
     padding: 0 16px;
     margin-top: 24px;
   }
@@ -67,7 +64,7 @@
   }
 }
 @media (min-width: 768px) {
-  .header-desctop {
+  .header-desctop__wrap {
     padding: 0 24px;
   }
 
@@ -79,9 +76,9 @@
   .wrap-btn {
     display: flex;
   }
-  .header-desctop--margin {
+  .header-desctop__wrap{
     margin-top: 42px;
     padding: 0 34px;
-    // background-color: beige;
   }
 }
+

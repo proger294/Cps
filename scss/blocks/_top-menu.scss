@@ -1,7 +1,5 @@
-.top-menu {
+.top-menu__wrap {
 display: flex;
-}
-.top-menu--margin {
 margin-top: 26px;
 }
 
@@ -37,17 +35,17 @@ margin-top: 26px;
 }
 
 @media (min-width: 320px){
-  .top-menu{
+  .top-menu__wrap{
     padding: 0 16px;  
   }
 }
 @media (min-width: 768px){
-  .top-menu{
+  .top-menu__wrap{
     padding: 0 24px;  
   }
 }
 @media (min-width: 1440px){
-  .top-menu{
+  .top-menu__wrap{
     padding: 0 34px;  
   }
 }
