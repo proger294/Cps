@@ -1,4 +1,4 @@
-.menu__btn {
+.buttons__btn {
   width: 40px;
   height: 40px;
   background-color: $accent-color;
@@ -13,7 +13,7 @@
   @media (hover: hover) {
     &:hover {
       background-color: #a33aff;
-      .menu__img {
+      .buttons__img {
         filter: invert(1);
         transition: 0.5s;
       }
@@ -68,8 +68,7 @@
   }
 }
 
-.burger {
-}
+
 .call {
   display: none;
 }
@@ -124,4 +123,10 @@
   .close {
     display: none;
   }
+}
+.buttons{
+  min-width: 288px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }

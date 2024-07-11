@@ -56,25 +56,18 @@ a {
   height: 88px;
 }
 
-.menu {
-  min-width: 288px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
 @media (min-width: 768px) {
   .header {
     padding: 18px 0px;
   }
 }
-.menu__wrap {
+.buttons__wrap {
   display: flex;
   align-items: center;
   gap: 15px;
 }
 
-.menu__wrap-2 {
+.buttons__wrap-2 {
   display: flex;
   align-items: center;
   gap: 15px;
@@ -85,7 +78,7 @@ a {
     display: none;
   }
 }
-.menu__btn {
+.buttons__btn {
   width: 40px;
   height: 40px;
   background-color: #FF3E79;
@@ -98,10 +91,10 @@ a {
   cursor: pointer;
 }
 @media (hover: hover) {
-  .menu__btn:hover {
+  .buttons__btn:hover {
     background-color: #a33aff;
   }
-  .menu__btn:hover .menu__img {
+  .buttons__btn:hover .buttons__img {
     filter: invert(1);
     transition: 0.5s;
   }
@@ -205,6 +198,13 @@ a {
     display: none;
   }
 }
+.buttons {
+  min-width: 288px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 .logo {
   position: relative;
 }
